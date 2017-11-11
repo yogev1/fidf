@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  get 'pages/index', to: 'pages#index'
 
- 
+  resources :users
+  devise_for :users
+
+  get 'hello_world', to: 'hello_world#index'
+  
+  root 'pages#index'
 end

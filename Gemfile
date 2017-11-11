@@ -14,6 +14,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem "paperclip", "~> 5.0.0"
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'bootstrap_form'	
 
 # Add-on for React
 gem 'webpacker', '~> 3.0'
@@ -32,3 +33,5 @@ group :development do
   gem 'spring'
 end
 
+
+gem 'mini_racer', platforms: :ruby
